@@ -108,7 +108,7 @@ backbtn.addEventListener("click", scrollWindow);
 
 // Event Listener for Player Events
 window.addEventListener('message', ({ origin, data }) => {
-  if (origin !== 'https://vidfast.pro' || !data) {
+  if (origin !== 'https://vidnest.fun' || !data) {
     return;
   }
 
@@ -126,7 +126,7 @@ window.addEventListener('message', ({ origin, data }) => {
 
 // Event Listener for Media Data
 window.addEventListener('message', ({ origin, data }) => {
-  if (origin !== 'https://vidfast.pro' || !data) {
+  if (origin !== 'https://vidnest.fun' || !data) {
     return;
   }
 
@@ -149,4 +149,3 @@ document.getElementById("videoFrame").addEventListener("load", function() {
 
 // In selectItem and confirmSeasonEpisode, replace direct iframe src assignment with:
 showVideo(url);
-
